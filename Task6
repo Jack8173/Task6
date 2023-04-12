@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Text;
+
+namespace Task5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int picturesInRow = 3;
+
+            int numberPictures = 52;
+
+            int numberRow;
+
+            int remainingPictures;
+
+            numberRow = numberPictures / picturesInRow;
+
+            remainingPictures = numberPictures % picturesInRow;
+
+
+
+            Console.WriteLine($"Всего рядов {numberRow}, оставшихся картинок {remainingPictures}");
+            Console.ReadKey();
+        }
+    }
+}
