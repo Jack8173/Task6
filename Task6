@@ -12,12 +12,12 @@ namespace Task5
         {
             int picturesInRow = 3;
             int numberPictures = 52;
-            int filledRowPictures;
+            int fulledRowWithPictures;
             int remainingPictures;
 
-            filledRowPictures = numberPictures / picturesInRow;
+            fulledRowWithPictures = numberPictures / picturesInRow;
             remainingPictures = numberPictures % picturesInRow;
-            Console.WriteLine($"Всего рядов {filledRowPictures}, оставшихся картинок {remainingPictures}");
+            Console.WriteLine($"Всего рядов {fulledRowWithPictures}, оставшихся картинок {remainingPictures}");
             Console.ReadKey();
         }
     }
