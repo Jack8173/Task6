@@ -11,20 +11,13 @@ namespace Task5
         static void Main(string[] args)
         {
             int picturesInRow = 3;
-
             int numberPictures = 52;
-
-            int numberRow;
-
+            int filledRowPictures;
             int remainingPictures;
 
-            numberRow = numberPictures / picturesInRow;
-
+            filledRowPictures = numberPictures / picturesInRow;
             remainingPictures = numberPictures % picturesInRow;
-
-
-
-            Console.WriteLine($"Всего рядов {numberRow}, оставшихся картинок {remainingPictures}");
+            Console.WriteLine($"Всего рядов {filledRowPictures}, оставшихся картинок {remainingPictures}");
             Console.ReadKey();
         }
     }
